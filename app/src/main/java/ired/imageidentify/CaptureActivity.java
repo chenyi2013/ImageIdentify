@@ -73,7 +73,7 @@ public class CaptureActivity extends Activity implements SurfaceHolder.Callback,
     private TessBaseAPI baseApi; // Java interface for the Tesseract OCR engine
     private ShutterButton shutterButton;
     private boolean isTranslationActive; // Whether we want to show translations
-    private boolean isContinuousModeActive = false; // Whether we are doing OCR in continuous mode
+    private boolean isContinuousModeActive = true; // Whether we are doing OCR in continuous mode
     private CaptureActivityHandler handler;
 
     private String sourceLanguageReadable; // Language name, for example, "English"

@@ -81,8 +81,6 @@ public class CacheHelper {
     }
 
 
-
-
     public static boolean downloadUrlToStream(String urlString, OutputStream outputStream) {
         HttpURLConnection urlConnection = null;
         BufferedOutputStream out = null;
